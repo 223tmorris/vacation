@@ -11426,10 +11426,17 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
-  background-position: center center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/rock.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.callout-outline{
+  color: white;
+  text-shadow:
+    -2.5px -2.5px 0 #000,
+    2.5px -2.5px 0 #000,
+    -2.5px 2.5px 0 #000,
+    2.5px 2.5px 0 #000;
 }
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
@@ -11481,7 +11488,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/flag.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11490,6 +11497,20 @@ footer.footer .social-link:hover {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: white;
+  text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+}
+.masthead-sub{
+  color: white;
+  text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 @media (min-width: 992px) {
   .masthead {
